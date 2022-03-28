@@ -11,7 +11,7 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 
-class TinhAdapter(private val context: Context, private val mListTinh: List<Tinh>) :
+class TinhAdapter(private val context: Context, private val mListTinh: MutableList<Tinh>) :
     RecyclerView.Adapter<TinhAdapter.TinhViewHolder>() {
     class TinhViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imgTinh: ImageView = itemView.findViewById(R.id.img_tinh)
