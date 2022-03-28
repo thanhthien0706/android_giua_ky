@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Giua Ky</string>
+    <string name="menu_change_color">Đổi màu</string>
+    <string name="menu_about">Về chúng tôi</string>
+</resources>
